@@ -4,7 +4,7 @@ if __name__ == "__main__":
 
 import shlex
 
-class CustomTerminal:
+class CustomShell:
     def __init__(self,begin=">",unknowncommandstr="Unknown command."):
         self._commandlist = {
             "exit":self.exit
