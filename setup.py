@@ -1,11 +1,11 @@
 from distutils.core import setup
 
 setup(
-    name= "customterminal",
-    packages=['customterminal'],
+    name= "customshell",
+    packages=['customshell'],
     version="1.0",
-    description='Simple custom terminal to use in python',
+    description='Simple custom shell to use in python',
     author="Ayberk Güngör",
     author_email="ayberkbilisim@gmail.com",
-    url="https://github.com/EngineerDragon/customterminal-py"
+    url="https://github.com/EngineerDragon/customshell-py"
 )
